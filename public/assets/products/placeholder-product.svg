@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Imagen temporal de producto De Pelos</title>
+  <desc id="desc">Placeholder para reemplazar con una foto real del producto.</desc>
+  <rect width="640" height="640" fill="#fbf7ef"/>
+  <rect x="86" y="86" width="468" height="468" rx="8" fill="#ffffff" stroke="#e5ded1" stroke-width="4"/>
+  <path d="M205 397c0-73 47-132 115-132s115 59 115 132" fill="#8fd4c2" opacity=".85"/>
+  <circle cx="258" cy="251" r="43" fill="#f7a7ba"/>
+  <circle cx="382" cy="251" r="43" fill="#f7a7ba"/>
+  <circle cx="282" cy="250" r="8" fill="#2d2a28"/>
+  <circle cx="358" cy="250" r="8" fill="#2d2a28"/>
+  <path d="M305 286c10 10 20 10 30 0" fill="none" stroke="#2d2a28" stroke-linecap="round" stroke-width="9"/>
+  <path d="M236 216l-36-50 67 26" fill="#8fd4c2"/>
+  <path d="M404 216l36-50-67 26" fill="#8fd4c2"/>
+  <rect x="164" y="436" width="312" height="38" rx="8" fill="#ffe36e"/>
+  <text x="320" y="461" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#2d2a28">FOTO DEL PRODUCTO</text>
+</svg>
