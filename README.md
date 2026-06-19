@@ -2,8 +2,6 @@
 
 Tienda responsive para la tienda fisica de mascotas De Pelos en Colombia. Incluye catalogo, filtros por categoria, buscador, carrito basico, paginas de producto y checkout por WhatsApp.
 
-Proyecto Next.js puro con App Router, listo para desplegar en Vercel usando Framework Preset: `Next.js`.
-
 ## Contacto configurado
 
 - Yeison Valencia Bravo
@@ -45,7 +43,6 @@ El logo esta en `public/assets/brand/de-pelos-logo.png`.
 ```bash
 npm run dev
 npm run build
-npm run start
 ```
 
-El build de produccion usa `next build` y genera la carpeta `.next/`.
+Este proyecto usa el starter vinext de Sites y queda listo para generar build compatible con Cloudflare Workers/Sites.
