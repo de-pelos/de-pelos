@@ -1,7 +1,14 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "http://localhost:3000");
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "De Pelos | Tienda online de mascotas en Colombia",
   description:
     "Compra alimentos, snacks, premios y productos para gatos y perros en De Pelos. Pedidos por WhatsApp y contacto de Yeison Valencia Bravo, Médico Veterinario Zootecnista.",
