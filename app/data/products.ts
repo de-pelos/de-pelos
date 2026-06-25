@@ -17,11 +17,8 @@ export type Product = {
 
 export const WHATSAPP_NUMBER = "573146358724";
 export const CONTACT_PHONE_DISPLAY = "+57 314 635 8724";
-export const VETERINARIAN_PHONE_NUMBER = "573136552259";
-export const VETERINARIAN_PHONE_DISPLAY = "+57 313 655 2259";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 export const PHONE_URL = `tel:+${WHATSAPP_NUMBER}`;
-export const VETERINARIAN_PHONE_URL = `tel:+${VETERINARIAN_PHONE_NUMBER}`;
 export const GENERAL_WHATSAPP_MESSAGE =
   "Hola, vengo de la tienda online De Pelos. Quiero recibir atención para una compra.";
 

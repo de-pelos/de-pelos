@@ -1,7 +1,4 @@
-import {
-  CONTACT_PHONE_DISPLAY,
-  VETERINARIAN_PHONE_DISPLAY,
-} from "../data/products";
+import { CONTACT_PHONE_DISPLAY } from "../data/products";
 
 export function SiteFooter() {
   return (
@@ -15,9 +12,6 @@ export function SiteFooter() {
         <div className="sm:text-right">
           <p className="font-semibold">
             Pedidos y WhatsApp: {CONTACT_PHONE_DISPLAY}
-          </p>
-          <p className="mt-1 font-semibold">
-            Contacto zootecnista: {VETERINARIAN_PHONE_DISPLAY}
           </p>
           <p className="mt-2 text-white/70">
             Tienda física de mascotas con venta en línea en Colombia.

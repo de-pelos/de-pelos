@@ -15,7 +15,6 @@ import {
   placeholderProductImage,
   Product,
   ProductCategory,
-  VETERINARIAN_PHONE_DISPLAY,
 } from "../data/products";
 
 const CART_STORAGE_KEY = "de-pelos-cart";
@@ -37,12 +36,12 @@ const quickSearches = [
   "Max Cat",
 ];
 
-type CartLine = {
+export type CartLine = {
   productId: string;
   quantity: number;
 };
 
-type CartItem = {
+export type CartItem = {
   product: Product;
   quantity: number;
 };
@@ -556,18 +555,18 @@ export function Storefront({ catalog }: { catalog: Product[] }) {
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <p className="text-sm font-bold text-[#7c6c5d]">
-                    Pedidos y WhatsApp
+                    Veterinario
                   </p>
                   <p className="mt-2 text-2xl font-black">
-                    {CONTACT_PHONE_DISPLAY}
+                    Yeison Valencia Bravo
                   </p>
                 </div>
                 <div>
                   <p className="text-sm font-bold text-[#7c6c5d]">
-                    Contacto zootecnista
+                    Pedidos y WhatsApp
                   </p>
                   <p className="mt-2 text-2xl font-black">
-                    {VETERINARIAN_PHONE_DISPLAY}
+                    {CONTACT_PHONE_DISPLAY}
                   </p>
                 </div>
               </div>
@@ -601,7 +600,7 @@ export function Storefront({ catalog }: { catalog: Product[] }) {
   );
 }
 
-function buildCheckoutHref(cartItems: CartItem[], total: number) {
+export function buildCheckoutHref(cartItems: CartItem[], total: number) {
   const lines = cartItems.map(
     ({ product, quantity }) =>
       `- ${quantity} x ${product.nombre} ${product.presentacion} (${formatCOP(
@@ -617,7 +616,7 @@ function buildCheckoutHref(cartItems: CartItem[], total: number) {
   return buildWhatsAppHref(message);
 }
 
-function CartDrawer({
+export function CartDrawer({
   cartItems,
   cartOpen,
   checkoutHref,
